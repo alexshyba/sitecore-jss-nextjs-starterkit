@@ -15,9 +15,9 @@
   },
   "scripts": {
     "dev": "cross-env NODE_ENV=development npm run start-server",
-    "start": "cross-env-shell \"npm run build && npm run start-server\"",
-    "export": "cross-env-shell NODE_ENV=production UNIFORM_BUILD_MODE=export \"npm run build && next export\"",
-    "build": "next build",
+    "start": "cross-env-shell \"next build && npm run start-server\"",
+    "export": "cross-env-shell NODE_ENV=production UNIFORM_BUILD_MODE=export \"next build && next export\"",
+    "build": "cross-env-shell NODE_ENV=production UNIFORM_BUILD_MODE=export \"next build && next export\"",
     "start-server": "node uniform.server.js"
   },
   "dependencies": {
