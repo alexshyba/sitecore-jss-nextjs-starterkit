@@ -7,7 +7,6 @@ You can also use this kit to start a vanilla project, simply remove everything f
 ## Docs
 
 1. [Tutorial for this starter kit](https://docs.uniform.dev/sitecore/deploy/getting-started/sitecore-jss-nextjs-tutorial)
-
 1. [Uniform for Sitecore docs](https://docs.uniform.dev/sitecore/deploy/introduction/)
 
 
